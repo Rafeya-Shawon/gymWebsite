@@ -66,7 +66,7 @@
     height: 100%;
 }
 
-#bannerBtn {
+.bannerBtn {
     padding: 15px 30px;
     background-color: tomato;
     margin: 10px;
@@ -74,7 +74,7 @@
     color: white;
 }
 
-#bannerBtn:hover {
+.bannerBtn:hover {
     background-color: red;
 }
 
@@ -104,7 +104,7 @@
     transition: .8ms;
 }
 
-#title2 {
+.title2 {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
@@ -113,4 +113,90 @@
 
 .icon {
     width: 50px;
+}
+
+#aboutUs {
+    display: flex;
+    background-color: rgb(20, 19, 19);
+    height: 550px;
+
+
+}
+
+#aboutLeft {
+    width: 700px;
+    border-top: 1px solid tomato;
+    margin: 10px;
+    display: flex;
+}
+
+#aboutRight {
+    width: 700px;
+    margin: 10px;
+    border-top: 1px solid white;
+}
+
+.aboutImg {
+    height: 450px;
+    width: 250px;
+    margin-top: 15px;
+    padding: 20px;
+    transform: skewY(-15deg);
+}
+
+
+#title2 {
+    background-color: rgb(20, 19, 19);
+    color: white;
+}
+
+#title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+#para {
+    font-size: 20px;
+    color: rgb(190, 216, 237);
+    font-weight: 900;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.lists li {
+    list-style: none;
+    font-size: 18px;
+    color: white;
+    padding-top: 6px;
+}
+
+#inquiry {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 550px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 150px 300px;
+}
+
+#workout {
+    color: white;
+}
+
+#chat {
+    background-color: white;
+    border: 1px;
+    height: 30px;
+    width: 100px;
+    font-size: medium;
+}
+
+#chat:hover {
+    background-color: blue;
 }
