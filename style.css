@@ -11,8 +11,10 @@
 }
 
 .logo {
-    margin-right: 10px;
-    padding-top: 15px;
+    margin-right: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: lighter;
 }
 
 .menuItem {
@@ -45,7 +47,7 @@
     margin-top: 120px;
 }
 
-#firstPara {
+.firstPara {
     color: tomato;
     font-size: 24px;
     margin: 10px;
@@ -199,4 +201,68 @@
 
 #chat:hover {
     background-color: blue;
+}
+
+#Services {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.cardImg img {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    border: 0px solid gray;
+    box-shadow: 5px 5px 10px gray;
+}
+
+#cardHead {
+    padding: 0px;
+    margin: 0px;
+}
+
+.batch {
+    position: relative;
+
+}
+
+.batchImg {
+    width: 50px;
+    top: -30px;
+    position: absolute;
+}
+
+#topFooter {
+    text-align: center;
+    font-size: medium;
+    margin-top: 50px;
+}
+
+#topFooter a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+#bottomFooter p {
+    text-align: center;
+    font-size: medium
+}
+
+span {
+    color: tomato;
 }
