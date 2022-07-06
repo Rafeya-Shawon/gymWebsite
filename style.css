@@ -10,6 +10,11 @@
     color: white;
 }
 
+.logo {
+    margin-right: 10px;
+    padding-top: 15px;
+}
+
 .menuItem {
     display: flex;
 }
@@ -57,10 +62,55 @@
     margin: 10px;
 }
 
+#banner {
+    height: 100%;
+}
+
 #bannerBtn {
     padding: 15px 30px;
     background-color: tomato;
     margin: 10px;
     font-size: 16px;
     color: white;
+}
+
+#bannerBtn:hover {
+    background-color: red;
+}
+
+.cards {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+    margin: 50px;
+    text-align: center;
+    padding-bottom: 15px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: .8ms;
+}
+
+.card:hover {
+    border: 1.5px solid tomato;
+    margin-top: -20px;
+    transition: .8ms;
+}
+
+#title2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.icon {
+    width: 50px;
 }
